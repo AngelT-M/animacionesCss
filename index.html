@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/barraPie.css">
+</head>
+<body>
+    <header>
+    </header> 
+
+    <nav>
+        <div class="barra">
+            <div class="img-barra">
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="">
+            </div>
+            <div class="enlaces ">
+                <a href="">Inicio </a>
+                <a href="">Ejemplos</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cont-prin"> 
+            <div>
+                <h1>Animaciones en css </h1>
+            </div>
+            <div class="animaciones">
+                <div class="ani-tex" > 
+                    <h1>Que son las animaciones </h1>
+                    <p>Las animaciones en CSS son técnicas que permiten cambiar de forma gradual el estilo de un elemento HTML sin necesidad de usar JavaScript. Estas animaciones pueden modificar propiedades como colores, tamaños, posiciones, rotaciones, opacidad y más.</p>
+                </div>
+                <div class="ani-tran">
+                    <h5>Transiciones (transition): cambian suavemente de un estado a otro.</h5>
+                    <div class="btn">
+                        <button>
+                            HEllO
+                        </button>
+                    </div>
+                </div>
+                <div class="ani-anima">
+                    <h5>Animaciones (animation + @keyframes): permiten movimientos y cambios más complejos y automáticos.</h5>
+                    <div class="ani-caja">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="">
+                   </div>
+                </div>
+            </div>
+
+            <div>
+                <h1>Ventajas y usos principales</h1>
+            </div>
+
+            <div class="prin-ven-u">
+
+                <div class="ven-u">
+                    <div class="ven-u-tit "> 
+                        <h5>Ventajas</h5>
+                    </div>
+                    <div class="ven-u-con"> 
+                        <ul>
+                            <li>Mejoran la apariencia visual de una página web.</li>
+                            <li>Hacen más interactiva la experiencia del usuario.</li>
+                            <li>Ayudan a destacar elementos importantes.</li>
+                            <li>Son más ligeras y rápidas que muchas animaciones hechas con JavaScript.</li>
+                            <li>Funcionan en la mayoría de navegadores modernos.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ven-u">
+                    <div class="ven-u-tit"> 
+                        <h5>USos principales</h5>
+                    </div>
+                    <div class="ven-u-con"> 
+                        <ul>
+                            <li>Efectos al pasar el mouse sobre botones.</li>
+                            <li>Menús interactivos.</li>
+                            <li>Cargas y pantallas de espera.</li>
+                            <li>Movimiento de imágenes o textos.</li>
+                            <li>Aparición y desaparición de elementos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h1>Transiciones en CSS</h1>
+            </div>
+            <div style="width: 100%;">
+                <div>
+                    <h4>Propiedad transition</h4>
+                    <p>La propiedad transition permite que un cambio de estilo ocurra de manera suave durante un tiempo determinado.</p>
+                </div>
+                <div class="transi">
+                    
+                    <div class="transi-cont">
+                        <h2>transition-property</h2>
+                        <div class="proferty-tran">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa1c2fd4iXdA6HWvLmZ6IfY1iq05l44k8IjQ&s" alt="">
+                        </div>
+                        <p>Define qué propiedad tendrá la transición.</p>
+                        <p>transition-property: background-color;</p>
+                    </div>
+                    <div class="transi-cont">
+                        <h2>transition-duration</h2>
+                        <div class="du-tran">
+                            <img src="https://coursework.vschool.io/content/images/size/w2000/2016/08/transition_example2.png" alt="">
+                        </div>
+                        <p>Indica cuánto tiempo durará la transición.</p>
+                        <p>transition-duration: 3s;</p>
+                    </div>
+                    <div class="transi-cont">
+                        <h2>transition-timing-function</h2>
+                        <div class="timing-tran">
+                            <img src="https://behind-the-scenes.net/wp-content/uploads/transition-timing-functions-all.jpg" alt="">
+                        </div>
+                        <p>Controla la velocidad de la animación.</p>
+                        <p>transition-timing-function: ease;</p>
+                    </div>
+                    <div class="transi-cont">
+                        <h2>transition-delay</h2>
+                        <div class="delay-tran">
+                            <img src="https://media.geeksforgeeks.org/wp-content/uploads/transition-delay2.png" alt="">
+                        </div>
+                        <p>Define cuánto tiempo esperar antes de iniciar la transición.</p>
+                        <p>transition-delay: 1s;</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h1>Transformaciones en CSS</h1>
+            </div>
+            <div style="width: 100%;">
+                <div>
+                    <h2>Propiedad transform</h2>
+                    <p>La propiedad transform permite modificar la forma, tamaño o posición de un elemento.</p>
+                </div>
+                <div class="transi">
+                    
+                    <div class="transi-cont">
+                        <h2>translate()</h2>
+                        <div>
+                            <img src="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Reference/Values/transform-function/translate/translate.png" alt="">
+                        </div>
+                        <p>Mueve un elemento.</p>
+                        <p>transform: translate(50px, 20px);</p>
+                    </div>
+                    <div class="transi-cont">
+                        <h2>rotate()</h2>
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuj7-1beZ3WI9jXUI9XyvzztbLkv0g6Fiiow&s" alt="">
+                        </div>
+                        <p>Rota un elemento.</p>
+                        <p>transform: rotate(45deg);</p>
+                    </div>
+                    <div class="transi-cont">
+                        <h2>scale()</h2>
+                        <div>
+                            <img src="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Reference/Values/transform-function/scale/scale.png" alt="">
+                        </div>
+                        <p>Aumenta o reduce el tamaño.</p>
+                        <p>transform: scale(1.5);</p>
+                    </div>
+                    <div class="transi-cont">
+                        <h2>skew()</h2>
+                        <div>
+                            <img src="https://global.discourse-cdn.com/freecodecamp/original/3X/2/0/206931c1d08fc77c8a42967bc4754ca6df0565fa.png" alt="">
+                        </div>
+                        <p>Inclina un elemento.</p>
+                        <p>transform: skew(20deg);</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h1>Animaciones en CSS</h1>
+            </div>
+
+            <div class="prin-ven-u">
+
+                <div class="ven-u">
+                    <div class="ven-u-tit "> 
+                        <h5>Propiedad animation</h5>
+                    </div>
+                    <div class="ven-u-con"> 
+                        <p>La propiedad animation en CSS es una forma abreviada (shorthand) para configurar animaciones en elementos HTML, 
+                            permitiendo definir el movimiento, cambios de estilo y secuencias complejas sin usar JavaScript.</p>
+                    </div>
+                </div>
+                <div class="ven-u">
+                    <div class="ven-u-tit"> 
+                        <h5>Uso de @keyframes</h5>
+                    </div>
+                    <div class="ven-u-con"> 
+                        <p>La regla @keyframes en CSS es una herramienta fundamental que permite crear animaciones personalizadas definiendo 
+                            estilos CSS en puntos específicos (fotogramas clave) a lo largo de una secuencia. Permite cambiar gradualmente el 
+                            estilo de un elemento desde un conjunto de CSS a otro, creando transiciones fluidas y complejas, más allá de lo que permiten las transiciones simples. </p>
+                    </div>
+                </div>
+            </div>
+
+             <div>
+                <h1>Parámetros principales</h1>
+            </div>
+            <div style="width: 100%;">
+                <div class="transi">
+                    
+                    <div class="transi-cont">
+                        <h2>animation-name</h2>
+                        <p>Nombre de la animación.</p>
+                        <p>animation-name: mover;</p>
+                        <div>
+                            <img src="https://tillitsdone.com/css_property_cover/css-property-animation-name.png" alt="">
+                        </div>
+                    </div>
+                    <div class="transi-cont">
+                        <h2>animation-duration</h2>
+                        <p>Tiempo que dura la animación.</p>
+                        <p>animation-duration: 3s;</p>
+                          <div>
+                            <img src="https://blog.hubspot.com/hs-fs/hubfs/CSS%20animation-duration%20property%20set%20to%20three%20different%20values%20.gif?width=600&name=CSS%20animation-duration%20property%20set%20to%20three%20different%20values%20.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="transi-cont">
+                        <h2>animation-iteration-count</h2>
+                        <p>Número de repeticiones.</p>
+                        <p>animation-iteration-count: infinite;</p>
+                        <div>
+                            <img src="https://raw.githubusercontent.com/Codecademy/docs/main/media/css-animation-iteration-count-fade.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="transi-cont">
+                        <h2>animation-delay</h2>
+                        <p>Tiempo antes de iniciar.</p>
+                        <p>animation-delay: 2s;</p>
+                        <div>
+                            <img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1615725562493%2FLZQGlTAlW.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <div>
+                <h1>Diferencias entre transiciones y animaciones</h1>
+            </div>
+
+            <div class="prin-ven-u">
+
+                <div class="ven-u">
+                    <div class="ven-u-tit "> 
+                        <h2>Cuándo utilizar cada una</h2>
+                    </div>
+                    <div class="ven-u-con"> 
+                        <h3>Usar transiciones cuando:</h3>
+                        <ul>
+                            <li>Se necesite un efecto simple.</li>
+                            <li>El cambio dependa del usuario.</li>
+                            <li>Se quieran efectos suaves en botones o enlaces.</li>
+                        </ul>
+                    </div>
+                    <div class="ven-u-con"> 
+                        <h3>Usar animaciones cuando:</h3>
+                        <ul>
+                            <li>Existan varios pasos o movimientos.</li>
+                            <li>El efecto sea automático.</li>
+                            <li>Se requieran repeticiones continuas.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ven-u">
+                    <div class="ven-u-tit "> 
+                        <h2>Ventajas y desventajas</h2>
+                    </div>
+                    <div class="ven-des"> 
+                        <div class="ven-u-con"> 
+                            <h3>Transiciones</h3>
+                            <p>Ventajas</p>
+                            <ul>
+                                <li>Fáciles de usar.</li>
+                                <li>Código corto.</li>
+                                <li>Buen rendimiento.</li>
+                            </ul>
+                            <p>Desventajas</p>
+                            <ul>
+                                <li>Limitadas a cambios simples.</li>
+                                <li>Necesitan interacción o cambio de estado.</li>
+                            </ul>
+                        </div>
+                        <div class="ven-u-con"> 
+                            <h3>Animaciones</h3>
+                            <p>Ventajas</p>
+                            <ul>
+                                <li>Más control y personalización.</li>
+                                <li>Permiten secuencias complejas.</li>
+                                <li>Pueden repetirse automáticamente.</li>
+                            </ul>
+                            <p>Desventajas</p>
+                            <ul>
+                                <li>Código más extenso.</li>
+                                <li>Pueden afectar el rendimiento si son excesivas.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                
+            </div>
+
+
+
+        </div>
+        
+
+
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.barra{
+    background-color: black;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.img-barra{
+    height: 100%;
+}
+.img-barra img{
+    width: 100%;
+    height: 100%
+}
+.enlaces {
+    margin: 0 3% 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+.enlaces a{
+    margin: 0 10% 0 0;
+    color: white;
+    text-decoration: none;
+}
