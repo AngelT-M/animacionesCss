@@ -42,9 +42,9 @@ main{
 }
 .ani-caja{
     width: 30%;
-    animation: mover 3s infinite;
+    animation: mover0 3s infinite;
 }
-@keyframes mover {
+@keyframes mover0 {
     from{
         transform: translate();
     }
@@ -100,7 +100,7 @@ main{
     flex-direction: row;
 }
 
-/*Animaciones */
+/*Efectos  */
 .proferty-tran {
     width: 100px;
     transition-property: width;
@@ -136,8 +136,108 @@ main{
     width: 100px;
     transition-property: width;
     transition-duration: 1s;
-    transition-delay: trasform 2s;
+    transition-delay: 2s;
 }
 .delay-tran:hover {
     width: 100%;
+}
+
+.cont-translate{
+   padding: 20px 20px;
+    background: green;
+    color: white;
+    transition: transform 1s ease;
+}
+.cont-translate :hover{
+    transform: translateY(-20px);
+}
+
+.cont-rotate{
+     padding: 10px 10px;
+    background: blue;
+    color: white;
+    transition: transform 0.5s ease;
+}
+.cont-rotate:hover{
+    transform: rotate(10deg);
+}
+
+.cont-scale{
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    transition: transform 0.3s ease;
+}
+.cont-scale:hover{
+    transform: scale(0.5);
+}
+
+.cont-skew{
+     padding: 10px 20px;
+    background: blue;
+    color: white;
+    transition: transform 0.3s ease;
+
+}
+.cont-skew:hover{
+    transform: skewX(15deg);
+}
+
+/*animaciones */
+
+.ani-dura {
+    width: 300px;
+    height: 100px;
+    
+
+    animation-name: mover;
+    animation-duration: 3s;
+}
+
+@keyframes mover {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(30%);
+    }
+}
+
+
+.ani-iteration{
+    width: 300px;
+    height: 100px;
+
+    animation-name: mover1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mover1 {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(30%);
+    }
+}
+.ani-delay{ 
+    width: 300px;
+    height: 100px;
+
+    animation: mover3 2s ease;
+    animation-delay: 2s;
+}
+
+@keyframes mover3 {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(30%);
+    }
 }
